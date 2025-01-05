@@ -14,9 +14,15 @@ function generator(){
 
     
 
-    return 'The ' + noun[Math.floor(Math.random() * noun.length)] + adjectives[Math.floor(Math.random() * noun.length)] + verbs[Math.floor(Math.random() * noun.length)];
+    return 'The ' + adjectives[Math.floor(Math.random() * adjectives.length)] + ' ' + noun[Math.floor(Math.random() * noun.length)] + ' ' + verbs[Math.floor(Math.random() * verbs.length)];
+
+
 
 
 
 
 }
+
+
+console.log(generator());
+
